@@ -107,6 +107,6 @@ public class Index extends JFrame {
 
     private boolean isValid(String id) {
         System.out.println("Index.isValid() is called");
-        return id.length() == 6 && (id.charAt(id.length() - 1) == '1' || id.charAt(id.length() - 1) == '2') /* && isInDB(id)*/;
+        return id.length() == 6 /*&& (id.charAt(id.length() - 1) == '1' || id.charAt(id.length() - 1) == '2')  && isInDB(id)*/;
     }
 }
